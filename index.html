@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Montana Beneduce. Realtor with EXIT Inspired Real Estate</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f8f8f8;
+    }
+
+    header {
+      background-color: #008080; /* EXIT teal */
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    header p {
+      margin-top: 5px;
+      font-size: 1em;
+    }
+
+    nav {
+      background-color: #006666;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav select {
+      padding: 10px;
+      font-size: 1em;
+      margin: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    .section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    .contact {
+      background: #e0f7f7;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .contact p {
+      margin: 5px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      background: #222;
+      color: white;
+    }
+
+    footer img {
+      max-width: 150px;
+      margin-top: 10px;
+    }
+
+    .social-icons a img {
+      width: 32px;
+      height: 32px;
+      margin: 5px;
+    }
+
+    @media(max-width: 600px) {
+      header h1 {
+        font-size: 1.5em;
+      }
+      nav select {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Montana Beneduce. Realtor with EXIT Inspired Real Estate</h1>
+  <p>As a registered nurse, I bring exceptional communication, attention to detail, and problem-solving skills to guide you in your real estate journey.</p>
+</header>
+
+<nav>
+  <select id="locationSelect" onchange="showSection(this.value)">
+    <option value="">Select a Location</option>
+    <option value="gainesville">Gainesville</option>
+    <option value="brooker">Brooker</option>
+    <option value="starke">Starke</option>
+    <option value="middleburg">Middleburg</option>
+    <option value="alachua">Alachua</option>
+  </select>
+</nav>
+
+<div class="container">
+
+  <div id="gainesville" class="section" style="display:none;">
+    <h2>Gainesville, FL — Why I’m the Best Realtor for Gainesville Buyers and Sellers</h2>
+    <p>Gainesville is one of Florida’s most dynamic real estate markets. It combines the energy of a major university town with the stability of established neighborhoods and growing suburbs. To succeed here, you need a realtor who understands both the numbers and the day-to-day realities of life in North Central Florida, and that is exactly what I offer.</p>
+    <p>As a licensed realtor with years of experience in the area and a background as an ICU nurse, I bring attention to detail, precision, and calm problem-solving that buyers and sellers notice immediately. Gainesville moves fast, and every decision counts. Whether you are competing for a home in Haile, looking at investment properties near UF, or selling in the Northwest corridor, I analyze trends, negotiate decisively, and communicate clearly.</p>
+    <p>I focus on educating my clients and being transparent. Gainesville has unique factors that affect property values, including zoning changes, flood zones, school districts, and planned developments. I break all of this down in a straightforward way so you can make informed decisions without the stress.</p>
+    <p>I also pride myself on fast response times, same-day showings, and strong local connections with lenders, inspectors, and contractors. If you want a realtor who knows Gainesville inside and out and works to protect your investment, I am the professional to have in your corner.</p>
+  </div>
+
+  <div id="brooker" class="section" style="display:none;">
+    <h2>Brooker, FL — Why I’m the Best Realtor for Rural and Small-Town Brooker</h2>
+    <p>Brooker is a small, close-knit community where privacy, land ownership, and rural living are priorities. Working in a rural market requires a different skill set, and this is my specialty.</p>
+    <p>Unlike large, general real estate teams, I take the time to understand each property’s well system, septic setup, acreage, zoning, and potential for agricultural or homestead use. These details can drastically affect value, financing, and buyer eligibility. Because I know the rural market firsthand, I can help you avoid costly mistakes that non-local agents often overlook.</p>
+    <p>As a local realtor serving North Central Florida, I am familiar with Brooker’s backroads, parcels, and hidden opportunities. Whether you are buying five acres for a homestead or selling family land, I know how to market properties to the right buyers using targeted rural outreach rather than generic MLS postings.</p>
+    <p>My nursing background also gives me a reputation for trustworthiness and clear communication, which matter a lot in smaller communities where relationships are everything. Working with me in Brooker means individualized service, quick communication, and someone who truly understands the rural lifestyle you are building.</p>
+  </div>
+
+  <div id="starke" class="section" style="display:none;">
+    <h2>Starke, FL — Why I’m the Best Realtor for Starke’s Growing Market</h2>
+    <p>Starke is no longer the quiet pass-through town it once was. It is becoming one of North Florida’s most attractive markets for commuters, investors, and families looking for value without giving up convenience. With major highways, new development, and expanding commercial activity, the Starke area offers great opportunities, but only if you have a realtor who understands where this market is heading.</p>
+    <p>I help buyers secure the best deals in Starke through fast communication, hyper-local market knowledge, and strong negotiating skills. I closely monitor property values, land availability, and shifts in demand from Gainesville and Jacksonville buyers. When a good property hits the market, you need a realtor who can get you inside quickly, and that is exactly what I do.</p>
+    <p>For sellers, I provide modern marketing strategies that make properties stand out in a market still filled with outdated practices. High-quality listing photos, targeted social media advertising, and an understanding of what buyers want make your property shine.</p>
+    <p>Starke’s mix of rural land, suburban homes, and investment properties requires a versatile realtor, and that is where I excel. Clear communication, reliability, and an in-depth understanding of the area make me the top choice for getting the results you want.</p>
+  </div>
+
+  <div id="middleburg" class="section" style="display:none;">
+    <h2>Middleburg, FL — Why I’m the Best Realtor for Middleburg’s Expanding Suburban Market</h2>
+    <p>Middleburg is one of the fastest-growing areas in Northeast Florida, blending suburban convenience with the peacefulness of a rural lifestyle. With new construction, improved infrastructure, and strong buyer demand, Middleburg requires a realtor who can move quickly, negotiate effectively, and understand the nuances of an evolving market.</p>
+    <p>Middleburg buyers often face intense competition, especially for updated homes and larger parcels. I help clients succeed by providing fast showings, strong offer strategies, and a deep understanding of lender requirements for different property types, including manufactured homes, acreage, and homes with well and septic systems.</p>
+    <p>For sellers, I use targeted marketing, accurate pricing strategies, and high-quality presentation to put homes ahead of the competition. I do not just list properties; I position them to sell for top dollar.</p>
+    <p>My nursing background gives me a calm, organized approach that clients appreciate, especially during negotiations and inspections. If you want a realtor who blends professionalism, strategy, and responsiveness, I am the clear choice in Middleburg.</p>
+  </div>
+
+  <div id="alachua" class="section" style="display:none;">
+    <h2>Alachua, FL — Why I’m the Best Realtor for Homes and Land in Alachua</h2>
+    <p>Alachua is one of the most desirable small-town markets in Florida, known for its rolling landscapes, strong community feel, and quick access to both Gainesville and Lake City. Whether you are buying a home in a neighborhood like Turkey Creek or searching for acreage in the countryside, you need a realtor who understands Alachua’s unique mix of rural and suburban lifestyles.</p>
+    <p>I guide buyers through the Alachua market with speed, clarity, and insight. Many homes move quickly, and land buyers need to understand zoning, greenbelt eligibility, well and septic issues, and local property trends. I provide clear explanations, same-day showings, and strong negotiating support so clients can make confident decisions.</p>
+    <p>For sellers, I use modern marketing techniques to reach relocating buyers, local families, and investors. High-quality presentation, accurate pricing, and targeted outreach help properties stand out from day one.</p>
+    <p>Alachua demands a realtor who knows the land, the community, and how to protect your best interests, and that is exactly what I bring to the table.</p>
+  </div>
+
+  <div class="contact section">
+    <h2>Contact Me</h2>
+    <p>Phone: 904 413 3342</p>
+    <p>Email: <a href="mailto:montana@exitinspired.com">montana@exitinspired.com</a></p>
+    <p>Office: EXIT INSPIRED REAL ESTATE</p>
+    <p>Address: 273 NW Main Blvd, Lake City, FL 32055</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/share/17rv5otZza/" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  &copy; 2025 Montana Beneduce. Realtor with EXIT Inspired Real Estate
+  <br>
+  <img src="https://exitrealestate.com/wp-content/uploads/2022/08/exit-logo.png" alt="EXIT Inspired Real Estate Logo">
+</footer>
+
+<script>
+function showSection(location) {
+  const sections = ['gainesville','brooker','starke','middleburg','alachua'];
+  sections.forEach(id => {
+    document.getElementById(id).style.display = 'none';
+  });
+  if(location) {
+    document.getElementById(location).style.display = 'block';
+  }
+}
+</script>
+
+</body>
+</html>
