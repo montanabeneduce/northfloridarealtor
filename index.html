@@ -5,7 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Montana Beneduce. Realtor with EXIT Inspired Real Estate</title>
   <style>
-    body {
+    body {<section class="home-intro">
+    <div class="intro-container">
+        <img src="profilepic1.jpg" alt="Montana Beneduce" class="intro-photo">
+        <p class="intro-text">
+            As a registered nurse, I bring a unique perspective to the world of real estate. My background in nursing has given me exceptional communication skills, attention to detail, and strong problem solving abilities. I understand that buying or selling a home is a major decision, so I am committed to providing guidance to the best of my ability to my clients. Let's connect and begin your real estate journey!
+        </p>
+    </div>
+</section>
       font-family: Arial, sans-serif;
       margin: 0;
       line-height: 1.6;
@@ -100,6 +107,31 @@
       }
     }
   </style>
+  .home-intro {
+    padding: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.intro-container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.intro-photo {
+    width: 250px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.intro-text {
+    font-size: 18px;
+    line-height: 1.5;
+    flex: 1;
+    min-width: 250px;
+}
 </head>
 <body>
 
@@ -198,4 +230,5 @@ function showSection(location) {
 
 </body>
 </html>
+
 
